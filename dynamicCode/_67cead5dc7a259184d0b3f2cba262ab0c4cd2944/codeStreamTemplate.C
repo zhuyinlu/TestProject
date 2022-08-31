@@ -52,18 +52,6 @@ namespace Foam
 
 // * * * * * * * * * * * * * * * Global Functions  * * * * * * * * * * * * * //
 
-extern "C" void codeStream_67cead5dc7a259184d0b3f2cba262ab0c4cd2944(Ostream& os, const dictionary& dict)
-{
-//{{{ begin code
-    #line 52 "/home/zhuyin/Simulation_Floatingobject_0814/constant/dynamicMeshDict.sixDoFRigidBodyMotionCoeffs.#codeStream"
-scalar sqrLx = sqr(0.300000000000);
-            scalar sqrLy = sqr(0.200000000000);
-            scalar sqrLz = sqr(0.100000000000);
-            os  <<
-                4.800000000000
-               *diagTensor(sqrLy + sqrLz, sqrLx + sqrLz, sqrLx + sqrLy)/12.0;
-//}}} end code
-}
 
 
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
